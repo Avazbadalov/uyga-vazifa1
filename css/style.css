@@ -9,7 +9,7 @@ body {
 .continer {
   position: relative;
 
-  max-width:  1110px;
+  width: 1110px;
   margin: 0 auto;
 }
 button:hover {
@@ -31,10 +31,10 @@ a {
 .bg-img {
   position: absolute;
   right: 0;
-  top: 0;
+  top: -172px;
 
-  width: 780px;
-  height: 780px;
+  width: 480px;
+  height: 480px;
 }
 /* header */
 .header {
@@ -119,50 +119,16 @@ h1 {
   width: 363px;
   height: 500px;
 }
-/* respocev start*/
-@media (max-width:850px){
-  body{
-    
-  }
-}
-@media (max-width:850px) {
-  .navbar{
-    padding: 40px 0 0 48px;
-  }
-.bg-table-img {
-  position: absolute;
-  right: 0;
-  top: 0;
-
-  width: 780px;
-  height: 780px;
-
-  }
-  
-}
-
-respocev end
-
-
-
-
-
 /* section */
-
-
-
-
-
-
 .section {
   position: relative;
 
   background-color: #1b262f;
-  width: 1500px;  
+  width: 1500px;
   height: 472px;
 
   margin: 0 auto;
-  color: #c1c5cc;
+  color: #fbfcfe;
 }
 .section-imsss {
   position: absolute;
@@ -228,7 +194,7 @@ respocev end
   margin-left: 29px;
 }
 /* easy to */
-  .easy-to {
+.easy-to {
   position: relative;
 
   display: flex;
@@ -275,7 +241,7 @@ pre {
   top: 1700px;
   right: 0;
 }
-semple
+/* semple */
 .semple-main {
   position: relative;
 }
@@ -502,4 +468,4 @@ semple
   width: 95px ;
   height: 40px;
 
-} 
+}
