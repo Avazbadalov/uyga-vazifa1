@@ -31,10 +31,10 @@ a {
 .bg-img {
   position: absolute;
   right: 0;
-  top: -172px;
+  top: 0;
 
-  width: 480px;
-  height: 480px;
+  width: 780px;
+  height: 780px;
 }
 /* header */
 .header {
@@ -120,13 +120,28 @@ h1 {
   height: 500px;
 }
 /* respocev start*/
-@media (max-width:850px;){
+@media (max-width:850px){
   body{
     
+  }
+}
+@media (max-width:850px) {
+  .navbar{
+    padding: 40px 0 0 48px;
+  }
+.bg-table-img {
+  position: absolute;
+  right: 0;
+  top: 0;
 
+  width: 780px;
+  height: 780px;
+
+  }
+  
 }
 
-/* respocev end*/
+respocev end
 
 
 
@@ -139,11 +154,11 @@ h1 {
 
 
 
-/* .section {
+.section {
   position: relative;
 
   background-color: #1b262f;
-  width: 1500px;
+  width: 1500px;  
   height: 472px;
 
   margin: 0 auto;
@@ -213,7 +228,7 @@ h1 {
   margin-left: 29px;
 }
 /* easy to */
-/* .easy-to {
+  .easy-to {
   position: relative;
 
   display: flex;
@@ -260,7 +275,7 @@ pre {
   top: 1700px;
   right: 0;
 }
-/* semple */
+semple
 .semple-main {
   position: relative;
 }
