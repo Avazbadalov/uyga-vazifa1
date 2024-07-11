@@ -9,7 +9,7 @@ body {
 .continer {
   position: relative;
 
-  width: 1110px;
+  max-width:  1110px;
   margin: 0 auto;
 }
 button:hover {
@@ -119,8 +119,27 @@ h1 {
   width: 363px;
   height: 500px;
 }
+/* respocev start*/
+@media (max-width:850px;){
+  body{
+    
+
+}
+
+/* respocev end*/
+
+
+
+
+
 /* section */
-.section {
+
+
+
+
+
+
+/* .section {
   position: relative;
 
   background-color: #1b262f;
@@ -128,7 +147,7 @@ h1 {
   height: 472px;
 
   margin: 0 auto;
-  color: #fbfcfe;
+  color: #c1c5cc;
 }
 .section-imsss {
   position: absolute;
@@ -194,7 +213,7 @@ h1 {
   margin-left: 29px;
 }
 /* easy to */
-.easy-to {
+/* .easy-to {
   position: relative;
 
   display: flex;
@@ -468,4 +487,4 @@ pre {
   width: 95px ;
   height: 40px;
 
-}
+} 
